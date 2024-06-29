@@ -1,0 +1,10 @@
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flexcol input, .flexcol textarea, .flexcol select  {
+    border:1.5px solid #a9a9a9;
+    padding: 10px;
+}

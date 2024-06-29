@@ -1,0 +1,24 @@
+.sidebar-option{
+
+    display:flex ;
+    align-items: center;
+    background-color: beige;
+    gap: 12px;
+    border: 1px solid #a9a9a9;
+    border-right: 0;
+    padding: 8px 10px;
+    border-radius: 3px 0px 0px 3px;
+    cursor: pointer;
+}
+
+.sidebar-option.active{
+    background-color: #bb97d4;
+    border-color: #a577c5;
+    color: white;
+}
+
+@media (max-width:750px) {
+    .sidebar-option p{
+        display: none;
+    }
+}
