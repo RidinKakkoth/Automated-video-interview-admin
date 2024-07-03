@@ -27,7 +27,7 @@ console.log(id,"lllllllll");
     if(response.success){
       setData(data.map(item=>item._id===id?{...item,listed:response.listed}:item))
       //we can use fetchData instead of this to update and reload
-      toast.success(`Product ${response.listed ? 'listed' : 'unlisted'} successfully`);
+      toast.success(`Interview ${response.listed ? 'listed' : 'unlisted'} successfully`);
     }
     else {
       toast.error(response.message);
